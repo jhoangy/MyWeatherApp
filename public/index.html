@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="sketch.js"></script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  
+
+    <div>
+       <a href="/">enter</a> | <a href="/checkin">checkin</a>
+    </div>
+
+  
+    <div id ="circle" class="circleBase type3">
+    <div style="text-align: center; color: whitesmoke; ">
+      <h1><span id="city"></span> Weather</h1>
+      <h2 id="feelsLike"> Feels like:</h2>
+      <h2 id="feelsLike"><span id="temp"></span></h2>
+      <h4 id="feelsLike" style="vertical-align: top;">&deg; C</h4>
+      <br/>
+      <h2 id="feelsLike"><span id="summary"></span></h2>
+      <br/>
+      <h2 id="feelsLike">AQI: <span id="aq_aqi"></span> </h2>
+      <i style="font-size:14px" class="fa tooltip">&#xf05a;
+        <p class="tooltiptext">
+          The air quality is <span id="aq_health"></span>
+          <br/>
+          Main Pollutant: <span id="aq_primary"></span>
+        </p>
+        
+      </i>
+      <br/>
+      <h3 id="feelsLike">Last updated <span id="aq_date"></span></h3>
+    </div>
+      
+    </div>
+    
+  </body>
+</html>

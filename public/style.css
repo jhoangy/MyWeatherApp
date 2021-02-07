@@ -1,0 +1,55 @@
+body {
+    padding: 10px;
+    background-color: #23272A;
+    color: #7289DA;
+}
+
+p {
+    padding: 10px;
+
+}
+
+#weather{
+    position: relative;
+}
+
+.circleBase {
+    
+    text-align:center;
+    border-radius: 30%;
+   
+}
+
+.type3 {
+    width: 30%;
+    height: 30%;
+    background: #7289DA;
+    border: 30px solid #7289DA;
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+}
+#feelsLike{ display:inline; vertical-align:bottom; font-weight: normal;}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 7px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
